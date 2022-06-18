@@ -1,2 +1,2 @@
 # IAAA Website
-The Code and Directories for IAAA's Main Website which is accessible from https://astronomy.org.in
+The Code and Directories for IAAA's Main Website (https://astronomy.org.in)
