@@ -6,6 +6,7 @@ else if(navigator.userAgent.match(/IEMobile|Windows Phone|Lumia|Android|webOS|iP
 {var metaTag=document.createElement('meta');metaTag.name="viewport";metaTag.content="width=401,user-scalable=no";document.getElementsByTagName('head')[0].appendChild(metaTag);}
 else
 {}});;
+document.getElementById("focus").focus();
 /*! Jssor */
 var $JssorDebug$=new function(){this.$DebugMode=true;this.$Log=function(msg,important){var console=window.console||{};var debug=this.$DebugMode;if(debug&&console.log){console.log(msg);}else if(debug&&important){alert(msg);}};this.$Error=function(msg,e){var console=window.console||{};var debug=this.$DebugMode;if(debug&&console.error){console.error(msg);}else if(debug){alert(msg);}
 if(debug){throw e||new Error(msg);}};this.$Fail=function(msg){throw new Error(msg);};this.$Assert=function(value,msg){var debug=this.$DebugMode;if(debug){if(!value)
